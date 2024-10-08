@@ -1,4 +1,4 @@
--- DML INSERT | DELETE | UPDATE
+-- DML (DATA MANIPULATION LANGUAGE) - INSERT | DELETE | UPDATE
 
 SELECT * FROM tb_alunos WHERE rede_social = null
 -- (o que?)(de onde?)    (condição)
