@@ -20,7 +20,7 @@ SELECT
 FROM 
   tb_tablename AS tb_tab
 WHERE 
-  tb_tab.Coluna1 IN (1, 2, 3, 4, 5, 6, 7)
+  tb_tab.Coluna1 IN (1, 2, 3, 4, 5, 6, 7) -- VETOR COM OS VALORES DESEJADOS
 
 -- LIKE
 -- ÓTIMO PARA TEXTOS
