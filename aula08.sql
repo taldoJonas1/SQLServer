@@ -9,3 +9,11 @@ ON
   c.client_id = ca.client_id
 WHERE
   ca.client_id IS NULL
+
+-- EXEMPLO 2
+
+SELECT c.nome_curso, count(t.id_turma) Total_Turmas
+FROM tb_turmas t
+RIGHT JOIN tb_cursos c ON c.id_curso = t.id_curso
+GROUP BY c.nome_curso
+WHERE Total_Turmas <> 0
